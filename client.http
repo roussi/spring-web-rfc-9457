@@ -1,0 +1,18 @@
+GET http://localhost:8080/api/users/1
+content-type: application/json
+
+###
+GET http://localhost:8080/api/users/2
+content-type: application/json
+
+###
+
+POST http://localhost:8080/api/users
+content-type: application/json
+
+{
+  "id": 1,
+  "name": "",
+  "email": "hi.sou"
+}
+  
