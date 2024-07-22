@@ -6,7 +6,7 @@ This project is a simple example of how to handle errors in a Spring web applica
 ## Pre-requisites
 - Java 17
 - Maven 3.8.3
-- Spring boot 3 (Spring web, Spring valifation)
+- Spring boot 3 (Spring web, Spring validation)
 - Lombok
 
 ## How to run
