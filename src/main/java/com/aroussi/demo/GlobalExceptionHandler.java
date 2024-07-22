@@ -2,18 +2,14 @@ package com.aroussi.demo;
 
 import org.springframework.http.*;
 import org.springframework.util.ObjectUtils;
-import org.springframework.web.ErrorResponse;
 import org.springframework.web.bind.MethodArgumentNotValidException;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
-import org.springframework.web.servlet.HandlerMapping;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 import java.net.URI;
 import java.time.Instant;
 import java.util.Arrays;
-import java.util.Objects;
 import java.util.Optional;
 
 @RestControllerAdvice
